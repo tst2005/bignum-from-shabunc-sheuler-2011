@@ -1,6 +1,6 @@
-require("class")
+local class = require("class")
 
-array = class:new(table)
+local array = class:new(table)
 function array:init(t, from, to)
     from = from or 1
     to = to or #t

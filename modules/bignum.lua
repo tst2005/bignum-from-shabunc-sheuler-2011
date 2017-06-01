@@ -1,5 +1,5 @@
-require("array")
-bignum = array:new()
+local array = require("array")
+local bignum = array:new()
 
 function bignum:init(t, base)
     array.init(self, t)
@@ -107,3 +107,4 @@ function bignum:pow(n)
     res = b:mul(a:pow(n % 2))
     return res 
 end
+return bignum

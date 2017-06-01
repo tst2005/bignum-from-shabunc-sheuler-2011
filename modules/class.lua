@@ -1,4 +1,4 @@
-class = {}
+local class = {}
 
 --[[
     to create a class, just write ClassA = class:new()
